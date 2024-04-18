@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card1{
+    height: 30vh;
+    background-color: #e2a6f7;
+    width: 10vw;
+    padding: 3px 3px 3px 3px;
+    margin: 3px 3px 3px 3px;
+    box-shadow: 4px 4px 4px rebeccapurple;
+    border-radius: 18px;
+    animation-delay: 7s;
+}
+.card1.active{
+    margin: 2px;
+    padding: 2px;
+    height: 30vh;
+    background-color: #b79bc2;
+    width: 20vw;
+    padding: 3px 3px 3px 3px;
+    margin: 4px 4px 4px 4px;
+    box-shadow: 4px 4px 4px rebeccapurple;
+    border-radius: 18px;
+    cursor: pointer;
+    position: relative;
+    transition: width 0.5s;
+}
