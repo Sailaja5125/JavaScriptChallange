@@ -1,0 +1,43 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;   
+}
+body{
+    background-color: rgba(23, 19, 19, 0.46);
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST2acRDfQNh_Y3pf9MYHNSpds4l9_CJKyJ5A&s");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100vw;   
+}
+.data2:nth-child(1){
+    position: absolute;
+    left: 0;
+    margin: 4px 4px 4px 4px;
+}
+.data2:nth-child(2){
+    position: absolute;
+    right: 0;
+    margin: 4px 4px 4px 4px;
+
+}
+.data2:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 4px 4px 4px 4px;
+
+}
+.data2:nth-child(4){
+    position: absolute;
+  bottom: 0;
+    right: 0;
+    margin: 4px 4px 4px 4px;
+}
