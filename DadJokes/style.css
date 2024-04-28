@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    font-size: 3rem;
+    color: palevioletred;
+    font-style: oblique;
+}
+.container{
+    height: 30vh;
+    margin: 12px 12px 12px 12px;
+    padding: 4px 4px 4px 4px;
+    width: 50vw;
+  border: 2px dashed black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 35px;
+    width: 96px;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 12px;
+}
+button:focus{
+    border: 2px solid burlywood;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+
+}
