@@ -1,0 +1,44 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;   
+}
+body{
+    height: 100vh;
+    width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(90, 54, 8, 0.096);
+}
+h1{
+    font-size: 4rem;
+    align-self: center;
+    color: lightblue;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 12px 12px 12px 12px;
+    align-items: end;
+}
+.applaud,.gasp, .nope,.boo,.victory{
+    height: 35px;
+    background-color: azure;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: transparent;
+    font-size: medium;
+    color: black;
+    font-weight: 600;
+} 
+.applaud:focus,.gasp:focus, .nope:focus,.boo:focus ,.victory:focus{
+    background-color: lightseagreen;
+    border: 3px solid whitesmoke;
+}
