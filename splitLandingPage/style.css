@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.container , .container1{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    align-self: center;
+    text-decoration: none;
+    color: chartreuse;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    height: 50vh;
+    width: 25vw;
+    justify-content: center;
+    background: #ffff;
+
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+legend{
+    font-weight: 500;
+    font-size: larger;
+    border-radius: 12px;
+}
+label{
+    font-size: medium;
+    font-weight: 500;
+    color: black;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+input{
+    border-radius: 12px;
+    height: 35px;
+    border: 2px solid grey;
+    margin: 2px 2px 2px 2px;
+    padding: 4px 4px 4px 4px;
+}
+button{
+    height: 35px;
+    width: 100px;
+    align-self: center;
+    margin: 25px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    background-color: grey;
+    border: #ffff;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: larger;
+    font-weight: 400;
+    
+}
+
+.container1{
+    background-image: url("../blurryloading/images/expandingcards2.jpg");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: blur(0px);
+}
