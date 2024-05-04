@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  monospace;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    border-bottom: 2px solid black;
+    align-items: center;
+}
+.first-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     width: 25%;
+     margin-left: 4px;
+}
+.second-part{
+    margin: 4px 4px 4px 4px;
+    padding: 4px 4px 4px 4px;
+
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 35%;
+}
+.contains{
+    width: 100px;
+    display: flex;
+    height: 9vh;
+    align-items: center;
+    margin: 4px 4px 4px 4px ;
+    padding: 4px 4px 4px 4px ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.image{
+    background-color: gray;
+    height: 10vh;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 4px;
+    background-image: url("./images/expandingcards2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px;
+}
+input , button{
+    height: 8vh;
+    padding: 4px;
+    border-radius: 12px;
+    border: 1px solid gainsboro;
+    background-color:  whitesmoke;
+}
+button{
+    margin-right: 4px;
+  padding: 4px;
+}
+button:active{
+    background-color: turquoise;
+}
+.contains:active{
+    border: 1px solid grey;
+    border-radius: 12px;
+    background-color: whitesmoke;
+}
