@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #171616ce;
+    height: 100vh;
+}
+header nav{
+    height: 12vh;
+    background-color: #171616ce;
+    border-bottom: 1px solid grey;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.image{
+    height: 45px;
+    width: 45px;
+   margin: 5px;
+   border-radius: 50%;
+   background-color: white;
+}
+.title{
+  font-size: 3.3rem;
+  font-weight: bolder;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ color: goldenrod;
+}
+input , button{
+    height: 7vh;
+    margin: 3px;
+    padding: 4px;
+    border-radius: 6px;
+  font-size: medium;
+border: none;
+}
+button{
+    color: white;
+  background-color: grey;
+  font-size: medium;
+  width: 100px;
+}
+.buttons{
+    display:  flex;
+    justify-content: space-between;
+}
+/*  card  */
+
+.cardbody{
+    margin: 1rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.cardimage{
+    height: 30vh;
+    width: 25vw;
+    border-bottom: 2px solid black;
+    margin: 4px;
+
+}
+.cardContent{
+    text-align: center;
+
+}
+.titleMovie{
+    font-size: larger;
+  font-weight: bolder;
+   font-family: monospace;
+   text-wrap: wrap;
+
+}
+.type{
+    margin: 4px;
+    position: relative;
+    top:  25px;
+    left: 2px;
+    color: red;
+    font-weight: bolder;
+}

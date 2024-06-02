@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+header h1 , .percentage{
+    font-size: 2.6rem;
+        text-align: center;
+}
+header{
+    text-align: center;
+    font-weight: bolder;
+}
+.container,.container-glasses{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    margin: 14px;
+}
+.container-glasses{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.glass-1{
+    background-color: rgb(55, 160, 195);
+    width: 20%;  
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    margin: 6px;
+    padding: 6px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-weight: bolder;
+    color: whitesmoke;
+    border: 1px solid blanchedalmond;    
+}
+
+.large-glass{
+    margin: 12px;
+    background-color: rgb(161, 203, 220);
+    width: 20%;
+    height: 70vh;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    border: 1px solid blanchedalmond;    
+}
+.percentage{
+    position: relative;
+    right: 250px;
+    top: 250px;
+    color: black;
+}
+.color{
+    height: 56.5px;
+    background-color: rgb(55, 160, 195);
+
+}
+
+
+.glass-1.active{
+    width: 18%;  
+    height: 45%;
+    background-color: lightblue;
+}

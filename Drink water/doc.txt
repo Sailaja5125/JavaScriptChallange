@@ -1,0 +1,14 @@
+* in javascript i could not 
+append the a new div inside an existing on clicking 
+other individual divs.
+
+* creating an element div and styling it in blue and 
+making it the child div of the large_glass div 
+appending it to the div when other div is clicked.
+
+
+concepts to learn 
+* DOM
+* Parent / Child 
+* creating elements 
+* styling..

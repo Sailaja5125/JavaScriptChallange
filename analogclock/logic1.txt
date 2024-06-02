@@ -1,0 +1,31 @@
+12 hr = 360deg
+1 hr = 360/12 = 30 deg
+h hrs = 30h + m/2
+ where 
+ in 60 min = 30 deg : 1 hr = 30 deg
+ 1 min = 30/60 = 1/2
+ m min = 1/2 m
+
+ now 60min = 360 deg 
+ 1min = 360.60 = 6deg
+ m min = 6m
+
+ now 60 sec = 360sec 
+ 1 sec = 360/60 = 6deg
+ s sec = 6s
+
+ // 
+ in java script 
+ access the elements by id 
+ get date 
+let date = new Date();
+then from date get hr store it in variable h
+then from date get min store it in variable m
+then from date get sec store it in variable s
+
+rotate the angle 
+hrotate = 30h+m/2
+mrotate = 6*m
+srotate = 6*s
+by using style style the angle of rotation of the clock
+

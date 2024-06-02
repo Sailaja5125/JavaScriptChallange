@@ -1,0 +1,22 @@
+movie api 
+
+
+below
+
+https://omdbapi.com/?s=Batman&page=3&apikey=2ee945ff
+
+
+
+/// how to do it
+
+>>> data 
+--> title 
+-->year of release
+-->type {movie ,or, series }
+-->poster
+
+get cards from bootstrap 
+
+use array.map to paste data in the inner html of the card and iterate it for n times of data.
+
+
